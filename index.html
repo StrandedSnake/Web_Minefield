@@ -61,12 +61,16 @@
         <!-- Game Container -->
         <div id="game-container" style="display: none;">
           <div class="card mb-3">
-            <div class="card-header bg-info text-white d-flex justify-content-between align-items-center">
-              <div class="game-info">
-                <span class="badge bg-danger">Kalan Mayın: <span id="mines-count">10</span></span>
-              </div>
-              <div class="game-info">
-                <span class="badge bg-warning text-dark">Süre: <span id="timer">0</span></span>
+            <div class="card-header bg-dark text-white">
+              <div class="digital-display-container">
+                <div class="digital-info-group">
+                  <div class="digital-display-label">KALAN MAYIN</div>
+                  <div class="digital-display" id="mines-count">10</div>
+                </div>
+                <div class="digital-info-group">
+                  <div class="digital-display-label">SÜRE</div>
+                  <div class="digital-display" id="timer">0</div>
+                </div>
               </div>
             </div>
             <div class="card-body">
