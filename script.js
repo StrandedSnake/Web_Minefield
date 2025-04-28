@@ -328,8 +328,10 @@ function endGame(isWin) {
   if (isWin) {
     gameWon = true;
     winMessageElement.style.display = 'block';
+    playNotificationSound('sounds/mgs-snake-eater-ending-ringtone.mp3')
   } else {
     gameOverElement.style.display = 'block';
+    playNotificationSound('sounds/snakedie.mp3')
   }
 }
 
@@ -416,3 +418,10 @@ gridSizeInput.addEventListener('change', () => {
 
 // Tema değiştirici event listener
 themeToggle.addEventListener('change', toggleDarkMode);
+
+function playNotificationSound(soundSrc) {
+  const audio = new Audio(soundSrc);
+  audio.play();
+}
+
+
