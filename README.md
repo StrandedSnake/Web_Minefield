@@ -2,7 +2,7 @@
 
 Bu proje, klasik Mayın Tarlası (Minesweeper) oyununun modern web teknolojileri ile geliştirilmiş bir versiyonudur. Türkçe arayüze sahip, özelleştirilebilir zorluk seviyesi ve karanlık mod desteği gibi özellikler içerir.
 
-![Mayın Tarlası Oyunu Ekran Görüntüsü](https://via.placeholder.com/800x450.png?text=Mayın+Tarlası+Oyunu)
+![Mayın Tarlası Oyunu Ekran Görüntüsü](png/demo.png)
 
 ## Özellikler
 
